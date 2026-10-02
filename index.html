@@ -40,27 +40,32 @@ body{font-family:Georgia,"Times New Roman",serif;color:var(--ink);overscroll-beh
   position:absolute;
   left:0;
   right:0;
-  bottom:7%;
+  bottom:6.5%;
   display:flex;
   align-items:center;
   justify-content:center;
   gap:8px;
-  color:#f0d587;
-  font-family:"Palatino Linotype","Book Antiqua","Palatino",Georgia,serif;
-  font-size:clamp(16px,4vw,24px);
-  font-style:italic;
-  font-weight:500;
-  letter-spacing:.02em;
+
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:clamp(14px,3.6vw,20px);
+  font-style:normal;
+  font-weight:600;
+  letter-spacing:.04em;
   line-height:1;
+
+  color:#9a741f;
   z-index:30;
+  text-shadow:none;
 }
-.swipe-hint .arrow{display:inline-block;transform:translateY(-1px);font-size:1.35em;color:#fff3c5;line-height:1}
-.logo-only{
-  width:min(80vw, 360px);
-  max-height:58vh;
-  object-fit:contain;
-  display:block;
-  margin:0 auto;
+
+.swipe-hint .arrow{
+  display:inline-block;
+  transform:translateY(-1px);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.35em;
+  font-weight:700;
+  color:#b18427;
+  line-height:1;
 }
 .content-page{padding:7% 8% 6%;background:
  radial-gradient(circle at 100% 0,rgba(215,169,65,.13),transparent 24%),
