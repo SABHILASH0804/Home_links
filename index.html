@@ -36,7 +36,24 @@ body{font-family:Georgia,"Times New Roman",serif;color:var(--ink);overscroll-beh
 .cover h1{font:700 clamp(20px,4.5vw,30px)/1.05 Arial,sans-serif;letter-spacing:.09em;margin:0;color:#fff0b0}
 .cover-sub{font-size:clamp(11px,2.5vw,15px);line-height:1.4;color:#dcbf91;max-width:85%;margin:3% auto}
 .cover-year{font:700 clamp(22px,5vw,32px)/1 Arial,sans-serif;color:var(--gold);letter-spacing:.15em;margin-top:2%}
-.swipe-hint{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:18px;color:#f0d587;font-family:"Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;font-size:clamp(18px,4.4vw,28px);font-style:italic;font-weight:500;letter-spacing:.02em;line-height:1}
+.swipe-hint{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:7%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  color:#f0d587;
+  font-family:"Palatino Linotype","Book Antiqua","Palatino",Georgia,serif;
+  font-size:clamp(16px,4vw,24px);
+  font-style:italic;
+  font-weight:500;
+  letter-spacing:.02em;
+  line-height:1;
+  z-index:30;
+}
 .swipe-hint .arrow{display:inline-block;transform:translateY(-1px);font-size:1.35em;color:#fff3c5;line-height:1}
 .logo-only{
   width:min(80vw, 360px);
